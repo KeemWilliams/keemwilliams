@@ -1,0 +1,19 @@
+{
+  "name": "tech-docs",
+  "version": "1.0.0",
+  "description": "Premium technical documentation for Wakeem Williams' infrastructure",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}

@@ -1,0 +1,32 @@
+# 🔒 Zero-Trust Security Policy
+
+My security philosophy is simple: **Assume the network is hostile.** This page details how I use Zero-Trust principles to protect my infrastructure.
+
+## 🕸️ 1. Perimeter-less Networking (NetBird)
+
+I do not open ports (SSH, Kube-API, Dashboard) to the public internet. Instead, I use **NetBird** to create a private peer-to-peer mesh.
+
+- **Effect:** Every node and client in my system has a `wt0` interface with a `100.x.x.x` address.
+- **Benefit:** If you're not on the NetBird network, my servers "do not exist" to your browser or CLI.
+
+## 🚪 2. Identity-Aware Proxy (Authentik)
+
+All internal web tools (Prometheus, n8n, etc.) are hidden behind **Authentik**.
+
+### Authentication Flow
+
+1.  User requests `n8n.example.com`.
+2.  **Traefik** intercepts the request and sends a query to the **Authentik Forward-Auth** middleware.
+3.  If unauthorized, the user is redirected to my branded SSO portal.
+4.  Upon successful login (backed by MFA), the session is granted.
+
+## 🔑 3. Automated Secret Injections
+
+Secrets are **never** stored in Git.
+
+1.  Secrets are created manually in an **Infisical** vault.
+2.  The **External Secrets Operator** (inside K3s) watches the vault.
+3.  It automatically synchronizes values into native Kubernetes `v1/Secret` objects.
+
+> [!TIP]
+> Combined with NetBird, this ensures that secrets are only accessible to authorized nodes on the internal mesh.
