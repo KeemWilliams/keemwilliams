@@ -4,6 +4,10 @@
 </div>
 
 <div align="center">
+  <img src="https://avatars.githubusercontent.com/u/260592500?v=4" width="120" height="120" style="border-radius: 50%; border: 3px solid #58A6FF;" alt="Wakeem Williams" />
+</div>
+
+<div align="center">
   <img src="https://skillicons.dev/icons?i=linux,docker,kubernetes,go,python,ts,postgres,grafana,prometheus,cloudflare" alt="Tech stack: Linux, Docker, Kubernetes, Go, Python, TypeScript, PostgreSQL, Grafana, Prometheus, Cloudflare" />
 </div>
 
@@ -19,7 +23,7 @@
 
 ## About
 
-I'm **Wakeem Williams**, a Systems / Platform Engineer with full-stack depth — building cloud infrastructure, DevOps pipelines, and SRE practices from frontend to bare metal. I design self-healing, structurally honest platforms specializing in Kubernetes, GitOps, Zero-Trust identity, observability, and AI automation. Tech shouldn't feel like a black box — I prioritize transparency over abstraction and ownership over convenience.
+I'm **Wakeem Williams**, a Systems / Platform Engineer with full-stack depth — building cloud infrastructure, DevOps pipelines, and SRE practices from frontend to bare metal. I design self-healing, structurally honest platforms specializing in Kubernetes, GitOps, Zero-Trust identity, observability, AI/ML pipelines, and automation. Tech shouldn't feel like a black box — I prioritize transparency over abstraction and ownership over convenience.
 
 ---
 
