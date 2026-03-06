@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 MD041 -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:58A6FF&height=180&section=header&text=Hey,%20I'm%20Keem.&fontSize=50&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Engineer%20%7C%20K3s%20%7C%20GitOps%20%7C%20Zero-Trust&descAlignY=55&descColor=8B949E&descSize=18" alt="Wakeem Williams - Full-Stack Engineer" width="100%" />
+  <img src="./banner.svg" alt="Wakeem Williams - Full-Stack Engineer" width="100%" />
 </div>
 
 <div align="center">
