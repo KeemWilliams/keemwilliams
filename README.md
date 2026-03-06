@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 MD041 -->
 <div align="center">
-  <img src="./banner.svg" alt="Wakeem Williams - Platform Engineer" width="100%" />
+  <img src="./banner.svg" alt="Wakeem Williams - Systems / Platform Engineer" width="100%" />
 </div>
 
 <div align="center">
@@ -19,7 +19,7 @@
 
 ## About
 
-I'm **Wakeem Williams**, a Platform Engineer with full-stack depth — building cloud infrastructure, DevOps pipelines, and SRE practices from frontend to bare metal. I design self-healing, structurally honest platforms specializing in Kubernetes, GitOps, Zero-Trust identity, observability, and AI automation. Tech shouldn't feel like a black box — I prioritize transparency over abstraction and ownership over convenience.
+I'm **Wakeem Williams**, a Systems / Platform Engineer with full-stack depth — building cloud infrastructure, DevOps pipelines, and SRE practices from frontend to bare metal. I design self-healing, structurally honest platforms specializing in Kubernetes, GitOps, Zero-Trust identity, observability, and AI automation. Tech shouldn't feel like a black box — I prioritize transparency over abstraction and ownership over convenience.
 
 ---
 
