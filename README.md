@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD033 MD041 -->
 <div align="center">
-  <img src="./banner.svg" alt="Wakeem Williams - Full-Stack Engineer" width="100%" />
+  <img src="./banner.svg" alt="Wakeem Williams - Platform Engineer" width="100%" />
 </div>
 
 <div align="center">
@@ -12,16 +12,14 @@
 </p>
 
 <p align="center">
-  <b>Currently Building:</b> Zero-Trust identity mesh with
-  <a href="https://github.com/KeemWilliams/helix-stax-infra">HelixStax</a> —
-  self-hosted Authentik + NetBird on K3s.
+  <b>Currently Building:</b> Self-hosted developer platform with <a href="https://github.com/KeemWilliams/helix-stax-infra">HelixStax</a> — K3s, GitOps, Zero-Trust identity mesh, and AI pipelines on bare metal.
 </p>
 
 ---
 
 ## About
 
-I'm **Wakeem Williams**, a Full-Stack Engineer building everything from frontend to bare metal -- architecture, backend, infrastructure, and AI pipelines. Tech shouldn't feel like a black box. I build self-healing, structurally honest platforms that prioritize transparency over abstraction and ownership over convenience.
+I'm **Wakeem Williams**, a Platform Engineer with full-stack depth — building cloud infrastructure, DevOps pipelines, and SRE practices from frontend to bare metal. I design self-healing, structurally honest platforms specializing in Kubernetes, GitOps, Zero-Trust identity, observability, and AI automation. Tech shouldn't feel like a black box — I prioritize transparency over abstraction and ownership over convenience.
 
 ---
 
@@ -29,7 +27,7 @@ I'm **Wakeem Williams**, a Full-Stack Engineer building everything from frontend
 
 | Project | Description | Stack | Status |
 |:--------|:------------|:------|:------:|
-| [HelixStax](https://github.com/KeemWilliams/helix-stax-infra) | Full infrastructure platform — GitOps, Zero-Trust identity mesh, monitoring, and AI pipelines on Hetzner bare metal | K3s, Devtron, Authentik, NetBird, Cloudflare | Active |
+| [HelixStax](https://github.com/KeemWilliams/helix-stax-infra) | Self-hosted developer platform — GitOps, Zero-Trust identity mesh, monitoring, and AI pipelines on Hetzner bare metal | K3s, Devtron, Authentik, NetBird, Cloudflare | Active |
 | [Devtron MCP Server](https://github.com/KeemWilliams/devtron-mcp-server) | Open-source MCP server bridging AI agents to CI/CD pipelines | TypeScript, MCP Protocol | Active |
 | [Vacancy Services](https://docs.wakeemwilliams.com/projects/vacancy-services) | Logistics optimization platform | Full-Stack, PostgreSQL | In Progress |
 
