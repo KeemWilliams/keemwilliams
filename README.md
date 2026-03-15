@@ -60,6 +60,8 @@ Philosophy: Transparency over abstraction · Ownership over convenience
 
 **🎨 Brand Asset Generator** — Automated brand kit pipeline. One upload, 13 platforms, 24+ export formats, EXIF metadata baked in, 8K supersampling. I got tired of manually resizing logos. [![Repo](https://img.shields.io/badge/brandkit-0D1117?style=flat-square&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/brandkit)
 
+**🌐 helixstax.com** — The website. Astro 5, Tailwind v4, Shadcn UI, GSAP animations, self-hosted analytics. Dark-mode-first, performance-obsessed, built to convert. [![Repo](https://img.shields.io/badge/helixstax.com-0D1117?style=flat-square&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/helixstax.com)
+
 ---
 
 <!-- ═══════════════════ CURRENTLY WORKING ON ═══════════════════ -->
