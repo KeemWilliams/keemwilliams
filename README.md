@@ -5,29 +5,15 @@
 <!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
 <div align="center">
-
-<!-- ═══════════════════ BANNER ═══════════════════ -->
-
 <img src="banner.svg" alt="Wakeem Williams — Founder, Helix Stax | Systems Architect" width="100%"/>
-
-<!-- ═══════════════════ HEADSHOT WITH GLOW ═══════════════════ -->
-
-<picture>
-<img src="https://keemwilliams.github.io/brandkit/website/headshot.jpg" width="130" height="130" style="border-radius: 50%; border: 3px solid #4F9E80; box-shadow: 0 0 20px rgba(79,158,128,0.4), 0 0 40px rgba(79,158,128,0.15); margin-top: 16px;" alt="Wakeem Williams — Founder & CEO, Helix Stax" />
-</picture>
-
-<!-- ═══════════════════ TYPING EFFECT ═══════════════════ -->
-
-<a href="https://helixstax.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=22&duration=3500&pause=1200&color=4F9E80&center=true&vCenter=true&multiline=false&width=700&height=35&lines=Building+systems+that+people+actually+use.;CTGA+Framework+%E2%80%94+Closing+the+gap+between+tools+%26+teams.;Operations+consulting+backed+by+infrastructure+depth.;Transparency+over+abstraction.+Ownership+over+convenience." alt="Typing SVG" />
-</a>
-
-<!-- ═══════════════════ BADGES ROW ═══════════════════ -->
-
-[![Profile Views](https://komarev.com/ghpvc/?username=KeemWilliams&color=4F9E80&style=flat-square&label=Profile+Views)](https://github.com/KeemWilliams)
-[![Profile Updated](https://img.shields.io/github/last-commit/KeemWilliams/keemwilliams?label=Profile%20Updated&color=4F9E80&style=flat-square)](https://github.com/KeemWilliams/keemwilliams)
-[![Website](https://img.shields.io/badge/helixstax.com-live-C4975A?style=flat-square&logo=safari&logoColor=white)](https://helixstax.com)
-
+<br/>
+<img src="https://keemwilliams.github.io/brandkit/website/headshot.jpg" width="120" height="120" style="border-radius: 50%; border: 3px solid #4F9E80;" alt="Wakeem Williams" />
+<br/><br/>
+<a href="https://helixstax.com"><img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3500&pause=1200&color=4F9E80&center=true&vCenter=true&width=600&height=30&lines=Building+systems+that+people+actually+use.;CTGA+Framework+%E2%80%94+Controls.+Technology.+Growth.+Adoption.;Operations+consulting+backed+by+infrastructure+depth.;Transparency+over+abstraction.+Ownership+over+convenience." alt="Typing SVG" /></a>
+<br/><br/>
+<a href="https://github.com/KeemWilliams"><img src="https://komarev.com/ghpvc/?username=KeemWilliams&color=4F9E80&style=flat-square&label=Profile+Views" alt="Profile Views"/></a>&nbsp;
+<a href="https://github.com/KeemWilliams/keemwilliams"><img src="https://img.shields.io/github/last-commit/KeemWilliams/keemwilliams?label=Profile%20Updated&color=4F9E80&style=flat-square" alt="Profile Updated"/></a>&nbsp;
+<a href="https://helixstax.com"><img src="https://img.shields.io/badge/helixstax.com-live-C4975A?style=flat-square&logo=safari&logoColor=white" alt="Website"/></a>
 </div>
 
 ---
