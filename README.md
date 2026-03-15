@@ -10,9 +10,11 @@
 
 <img src="banner.svg" alt="Wakeem Williams — Founder, Helix Stax | Systems Architect" width="100%"/>
 
-<!-- ═══════════════════ HEADSHOT ═══════════════════ -->
+<!-- ═══════════════════ HEADSHOT WITH GLOW ═══════════════════ -->
 
-<img src="https://keemwilliams.github.io/brandkit/website/headshot.jpg" width="130" height="130" style="border-radius: 50%; border: 3px solid #4F9E80; margin-top: 16px;" alt="Wakeem Williams — Founder & CEO, Helix Stax" />
+<picture>
+<img src="https://keemwilliams.github.io/brandkit/website/headshot.jpg" width="130" height="130" style="border-radius: 50%; border: 3px solid #4F9E80; box-shadow: 0 0 20px rgba(79,158,128,0.4), 0 0 40px rgba(79,158,128,0.15); margin-top: 16px;" alt="Wakeem Williams — Founder & CEO, Helix Stax" />
+</picture>
 
 <!-- ═══════════════════ TYPING EFFECT ═══════════════════ -->
 
@@ -59,11 +61,15 @@ Philosophy: Transparency over abstraction
 Location:  United States
 ```
 
+<p align="center">
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/wakeemwilliams)
 [![Calendly](https://img.shields.io/badge/Book_a_Call-4F9E80?style=for-the-badge&logo=googlecalendar&logoColor=white)](https://calendly.com/wakeemwilliams)
 [![X](https://img.shields.io/badge/@wakeemwilliams-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/wakeemwilliams)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/helixstax)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/helixstax)
+
+</p>
 
 </td>
 </tr>
