@@ -22,9 +22,11 @@
 
 ### About Me
 
-I'm **Wakeem Williams** — Founder & CEO of **[Helix Stax](https://helixstax.com)**, a business operations consulting firm that closes the gap between the systems companies buy and the workflows their teams actually use.
+Wakeem Williams is the Founder and CEO of [Helix Stax](https://helixstax.com), a business operations consulting firm based on one observation: companies keep buying software that their teams never actually use.
 
-I build on 15 years of experience as a **Systems Architect** and **Platform Engineer**, bringing infrastructure-grade rigor to business operations. My background spans cloud architecture, DevOps, SRE, and AI/ML pipelines — and I use all of it to solve a deceptively simple problem: **why do companies keep paying for tools nobody uses?**
+I spent 15 years as a systems architect and platform engineer. Cloud, DevOps, SRE, ML pipelines. The whole stack. And the thing I kept seeing wasn't a technology problem. It was a people problem wearing a technology mask. A 300-person company I worked with had three overlapping platforms, $3.6M in annual licensing, and 20% adoption across the board. Nobody was using any of it. That's not a vendor issue. That's an organizational failure, and nobody in the building wanted to say it out loud.
+
+So I built a company that says it out loud.
 
 > *"Systems that nobody uses are just overhead. We make sure your people and your systems are actually aligned — so you stop paying for both and only getting half."*
 
@@ -52,11 +54,11 @@ Philosophy: Transparency over abstraction · Ownership over convenience
 
 ## <img src="https://img.shields.io/badge/▐-4F9E80?style=flat-square&logoColor=white" height="16"/> What I'm Building
 
-**🏢 Helix Stax** — Business Operations Consulting. We use the **CTGA Framework** to audit how companies use their tech stack, find the gaps between tools and teams, and close them — permanently. [![Website](https://img.shields.io/badge/helixstax.com-0D1117?style=flat-square&logo=safari&logoColor=4F9E80)](https://helixstax.com)
+**🏢 Helix Stax** — Business operations consulting. We run CTGA Framework assessments to find the gap between what companies pay for and what their teams actually touch. Then we close that gap. Permanently. [![Website](https://img.shields.io/badge/helixstax.com-0D1117?style=flat-square&logo=safari&logoColor=4F9E80)](https://helixstax.com)
 
-**🧬 CTGA Framework** — A proprietary maturity scoring framework. Two paired strands — **C**ontrols + **T**echnology (systems) and **G**rowth + **A**doption (people). Scores 100-900. The mismatch IS the diagnosis.
+**🧬 CTGA Framework** — Our proprietary systems adoption scoring model. Two paired strands: **C**ontrols + **T**echnology measure the systems side, **G**rowth + **A**doption measure the people side. Scores run 100-900. The gap between strands is the diagnosis.
 
-**🎨 Brand Asset Generator** — Automated brand kit pipeline — 13 platforms, 24+ formats, EXIF metadata, 8K supersampling. [![Repo](https://img.shields.io/badge/brandkit-0D1117?style=flat-square&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/brandkit)
+**🎨 Brand Asset Generator** — Automated brand kit pipeline. One upload, 13 platforms, 24+ export formats, EXIF metadata baked in, 8K supersampling. I got tired of manually resizing logos. [![Repo](https://img.shields.io/badge/brandkit-0D1117?style=flat-square&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/brandkit)
 
 ---
 
@@ -68,12 +70,12 @@ Philosophy: Transparency over abstraction · Ownership over convenience
 
 | Project | Status | Description |
 |---------|--------|-------------|
-| **Helix Stax Platform** | 🟢 Active | Business operations consulting — CTGA assessments, client delivery |
-| **Brand Asset Generator** | 🟡 Building | Web app: upload selfie → AI headshot → full brand kit for 13 platforms |
-| **Lead Automation Workflows** | 🟢 Active | n8n pipelines for prospect scoring, follow-up sequences, CRM sync |
-| **Automated Phone System** | 🟡 Building | AI-powered call handling — missed call recovery, appointment booking |
-| **Client Onboarding Engine** | 🟢 Active | Automated intake → CTGA assessment → report generation pipeline |
-| **Infrastructure Platform** | 🟢 Active | K3s + Devtron on Hetzner — self-hosted, zero cloud lock-in |
+| **Helix Stax Platform** | 🟢 Active | CTGA assessments and client delivery for business operations consulting |
+| **Brand Asset Generator** | 🟡 Building | Upload a selfie, get an AI headshot, walk away with a full brand kit for 13 platforms |
+| **Lead Automation Workflows** | 🟢 Active | n8n pipelines that score prospects, trigger follow-ups, and keep the CRM honest |
+| **Automated Phone System** | 🟡 Building | Missed calls get answered in 3 seconds, appointments get booked without a human |
+| **Client Onboarding Engine** | 🟢 Active | Intake form to CTGA assessment to finished report — no manual steps in between |
+| **Infrastructure Platform** | 🟢 Active | K3s + Devtron on Hetzner bare metal. Self-hosted. No cloud vendor lock-in. |
 
 </details>
 
@@ -141,7 +143,7 @@ graph TD
 
 ### 🏗️ HelixStax Infrastructure
 
-Self-hosted developer platform on Hetzner bare metal. K3s, Devtron, ArgoCD, Authentik, NetBird VPN — the full stack, zero cloud lock-in.
+The whole Helix Stax platform runs on this. K3s on Hetzner bare metal, Devtron for CI/CD, ArgoCD for GitOps, Authentik for identity, NetBird for zero-trust networking. No AWS bill. No Azure dependency. We own the stack.
 
 ![K3s](https://img.shields.io/badge/K3s-FFC61C?style=flat-square&logo=k3s&logoColor=black) ![Devtron](https://img.shields.io/badge/Devtron-4F46E5?style=flat-square&logo=devdotto&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
 
@@ -151,7 +153,7 @@ Self-hosted developer platform on Hetzner bare metal. K3s, Devtron, ArgoCD, Auth
 
 ### 🎨 Brand Asset Kit
 
-Automated brand asset pipeline — source SVGs to 24+ platform-ready assets with embedded metadata, 8K supersampling, and LANCZOS downscaling.
+One source SVG goes in. 24+ platform-ready assets come out — with EXIF metadata, 8K supersampling, and LANCZOS downscaling. I built this because resizing the same logo for LinkedIn, Instagram, Twitter, and ten other places was eating hours I didn't have.
 
 ![SVG](https://img.shields.io/badge/SVG-FFB13B?style=flat-square&logo=svg&logoColor=black) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
@@ -161,7 +163,7 @@ Automated brand asset pipeline — source SVGs to 24+ platform-ready assets with
 
 ### 🤖 MCP Server — CI/CD
 
-Open-source Model Context Protocol server that connects AI agents to CI/CD pipelines.
+Open-source Model Context Protocol server that lets AI agents talk to CI/CD pipelines. Written in Go. If you're building agent tooling and need pipeline access, this is the bridge.
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
@@ -171,7 +173,7 @@ Open-source Model Context Protocol server that connects AI agents to CI/CD pipel
 
 ### 📚 Technical Documentation
 
-Public engineering docs — runbooks, architecture decisions, infrastructure patterns. Built in the open.
+Public engineering docs. Runbooks, architecture decisions, infrastructure patterns. I build in the open because I've wasted too many hours on undocumented systems to inflict that on anyone else.
 
 ![MkDocs](https://img.shields.io/badge/MkDocs-000000?style=flat-square&logo=readthedocs&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
@@ -189,7 +191,7 @@ Public engineering docs — runbooks, architecture decisions, infrastructure pat
 
 ### Lead Pipeline
 
-Every missed call becomes a booked appointment — or a warm nurture contact. Nothing falls through.
+Missed calls turn into booked appointments. Or warm nurture contacts. Nothing sits in a voicemail box going stale.
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#4F9E80', 'primaryTextColor': '#F0F4FF', 'lineColor': '#8896B3', 'background': '#0D1117'}}}%%
@@ -209,7 +211,7 @@ flowchart LR
 
 ### Client Operations Automation
 
-From first dispatch to final payment — no manual handoffs, no dropped invoices.
+First dispatch to final payment. No manual handoffs, no forgotten invoices, no "I thought you sent that."
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#4F9E80', 'primaryTextColor': '#F0F4FF', 'lineColor': '#8896B3', 'background': '#0D1117'}}}%%
@@ -226,7 +228,7 @@ flowchart LR
 
 ### Missed Call Recovery
 
-The phone rings. Nobody answers. The system does — in 3 seconds.
+Phone rings. Nobody picks up. Three seconds later, the system does.
 
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#4F9E80', 'primaryTextColor': '#F0F4FF', 'lineColor': '#8896B3', 'background': '#0D1117'}}}%%
@@ -269,15 +271,15 @@ flowchart TD
 <summary><strong>🤝 Open to Collaboration</strong></summary>
 <br/>
 
-I'm actively looking for collaborators on:
+I'm looking for people building in these areas:
 
-- **Infrastructure-as-Code** patterns and GitOps workflows
-- **Zero-Trust networking** and identity management
-- **Operations consulting** tools and frameworks
-- **AI agent integrations** with CI/CD and DevOps tooling
-- **Open-source brand tooling** (asset generation, design systems)
+- Infrastructure-as-Code patterns and GitOps workflows
+- Zero-trust networking and identity management
+- Business operations consulting tools (there aren't enough good ones)
+- AI agent integrations with CI/CD and DevOps tooling
+- Open-source brand tooling — asset generation, design systems, anything that saves a founder from Canva at 2am
 
-If you're building something adjacent — or if your company is drowning in tools nobody uses — **let's talk**.
+If you're working on something adjacent, or if your company is paying for tools that collect dust, [let's talk](https://helixstax.com).
 
 [![Book a Call](https://img.shields.io/badge/Book_a_Call-4F9E80?style=for-the-badge&logo=googlecalendar&logoColor=white)](https://calendly.com/wakeemwilliams)
 
