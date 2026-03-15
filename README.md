@@ -110,11 +110,12 @@ Automated brand kit pipeline — generates platform-optimized assets (13 platfor
 
 | Project | Status | Description |
 |---------|--------|-------------|
-| **Helix Stax Brand Buildout** | 🟢 Active | Phase 2 — Strategy: taglines, visual identity, assessment pricing |
-| **CTGA Framework Documentation** | 🟡 In Progress | Formalizing the methodology for client-facing materials |
-| **Infrastructure Platform** | 🟢 Active | K3s + Devtron on Hetzner bare metal — self-hosted developer platform |
-| **Brand Asset Pipeline** | ✅ Complete | Automated generation of 24+ platform-optimized assets |
-| **MCP Server for CI/CD** | 🟡 In Progress | Open-source server connecting AI agents to CI/CD systems |
+| **Helix Stax Platform** | 🟢 Active | Business operations consulting — CTGA assessments, client delivery |
+| **Brand Asset Generator** | 🟡 Building | Web app: upload selfie → AI headshot → full brand kit for 13 platforms |
+| **Lead Automation Workflows** | 🟢 Active | n8n pipelines for prospect scoring, follow-up sequences, CRM sync |
+| **Automated Phone System** | 🟡 Building | AI-powered call handling — missed call recovery, appointment booking |
+| **Client Onboarding Engine** | 🟢 Active | Automated intake → CTGA assessment → report generation pipeline |
+| **Infrastructure Platform** | 🟢 Active | K3s + Devtron on Hetzner — self-hosted, zero cloud lock-in |
 
 </details>
 
@@ -126,36 +127,27 @@ Automated brand kit pipeline — generates platform-optimized assets (13 platfor
 <summary><strong>🏗️ Infrastructure Architecture — HelixStax Platform</strong></summary>
 <br/>
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                     HELIX STAX PLATFORM                             │
-│                     Hetzner Bare Metal                              │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐              │
-│  │  Cloudflare  │  │   Traefik    │  │   NetBird    │              │
-│  │    Edge      │──│   Ingress    │──│     VPN      │              │
-│  │   (CDN/WAF)  │  │    v3        │  │  (Zero-Trust)│              │
-│  └──────────────┘  └──────────────┘  └──────────────┘              │
-│         │                  │                  │                      │
-│  ┌──────┴──────────────────┴──────────────────┴──────┐              │
-│  │                   K3s Cluster                      │              │
-│  │  ┌─────────┐  ┌─────────┐  ┌─────────┐           │              │
-│  │  │ Devtron │  │  ArgoCD │  │Authentik│           │              │
-│  │  │  CI/CD  │  │  GitOps │  │   IdP   │           │              │
-│  │  └─────────┘  └─────────┘  └─────────┘           │              │
-│  │  ┌─────────┐  ┌─────────┐  ┌─────────┐           │              │
-│  │  │  Prom   │  │ Grafana │  │  Ollama │           │              │
-│  │  │  Stack  │  │  Dash   │  │  AI/ML  │           │              │
-│  │  └─────────┘  └─────────┘  └─────────┘           │              │
-│  │  ┌──────────────────────────────────┐             │              │
-│  │  │        PostgreSQL · Redis        │             │              │
-│  │  └──────────────────────────────────┘             │              │
-│  └───────────────────────────────────────────────────┘              │
-│                                                                     │
-│  Nodes: heart (control-plane) + helix-worker-1                     │
-│  OS: AlmaLinux 9.7 · CNI: Flannel · Storage: local-path           │
-└─────────────────────────────────────────────────────────────────────┘
+```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#4F9E80', 'primaryTextColor': '#F0F4FF', 'primaryBorderColor': '#4F9E80', 'lineColor': '#8896B3', 'secondaryColor': '#1A2332', 'tertiaryColor': '#161B22', 'background': '#0D1117'}}}%%
+graph TD
+    User([Clients & Prospects]) -->|HTTPS| CF[Cloudflare Edge]
+    CF -->|Origin CA| TR[Traefik v3 Ingress]
+
+    subgraph Identity
+        Auth[Authentik SSO]
+        NB[NetBird VPN]
+    end
+
+    subgraph Platform [K3s Cluster — Hetzner Bare Metal]
+        TR --> Apps[Client Workloads]
+        TR --> Mon[Grafana + Prometheus]
+        TR --> AI[Ollama + n8n]
+        Apps --> DB[(PostgreSQL + pgvector)]
+        AI --> DB
+    end
+
+    Auth -.->|OIDC| TR
+    NB -.->|Zero-Trust| TR
 ```
 
 </details>
@@ -255,6 +247,71 @@ Automated brand kit pipeline — generates platform-optimized assets (13 platfor
 </tr>
 </table>
 </div>
+
+---
+
+<!-- ═══════════════════ AUTOMATION SHOWCASE ═══════════════════ -->
+
+<details>
+<summary><strong>⚡ Automation in Action — What We Build for Clients</strong></summary>
+<br/>
+
+### Lead Pipeline
+
+Every missed call becomes a booked appointment — or a warm nurture contact. Nothing falls through.
+
+```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#4F9E80', 'primaryTextColor': '#F0F4FF', 'lineColor': '#8896B3', 'background': '#0D1117'}}}%%
+flowchart LR
+    A[Missed Call] --> B[AI Callback]
+    B --> C{Qualified?}
+    C -->|Yes| D[Book Assessment]
+    C -->|No| E[Nurture Sequence]
+    D --> F[CTGA Score]
+    F --> G[Proposal]
+
+    style A fill:#C4975A,color:#0D1117
+    style D fill:#4F9E80,color:#0D1117
+    style F fill:#4F9E80,color:#0D1117
+    style G fill:#C4975A,color:#0D1117
+```
+
+### Client Operations Automation
+
+From first dispatch to final payment — no manual handoffs, no dropped invoices.
+
+```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#4F9E80', 'primaryTextColor': '#F0F4FF', 'lineColor': '#8896B3', 'background': '#0D1117'}}}%%
+flowchart LR
+    A[Manual Dispatch] --> B[Automated Routing]
+    B --> C[Job Assignment]
+    C --> D[Field Updates]
+    D --> E[Invoice Generated]
+    E --> F[Payment Collected]
+
+    style A fill:#C4975A,color:#0D1117
+    style F fill:#4F9E80,color:#0D1117
+```
+
+### Missed Call Recovery
+
+The phone rings. Nobody answers. The system does — in 3 seconds.
+
+```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#4F9E80', 'primaryTextColor': '#F0F4FF', 'lineColor': '#8896B3', 'background': '#0D1117'}}}%%
+flowchart TD
+    A[📞 Missed Call] --> B[AI Answers in 3s]
+    B --> C[Books Appointment]
+    C --> D[Confirms via Text]
+    D --> E[Syncs to Calendar]
+    E --> F[Follow-up if No-Show]
+
+    style A fill:#C4975A,color:#0D1117
+    style B fill:#4F9E80,color:#0D1117
+    style F fill:#C4975A,color:#0D1117
+```
+
+</details>
 
 ---
 
