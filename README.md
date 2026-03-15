@@ -20,10 +20,6 @@
 
 <!-- ═══════════════════ ABOUT ═══════════════════ -->
 
-<table>
-<tr>
-<td width="55%" valign="top">
-
 ### About Me
 
 I'm **Wakeem Williams** — Founder & CEO of **[Helix Stax](https://helixstax.com)**, a business operations consulting firm that closes the gap between the systems companies buy and the workflows their teams actually use.
@@ -32,22 +28,15 @@ I build on 15 years of experience as a **Systems Architect** and **Platform Engi
 
 > *"Systems that nobody uses are just overhead. We make sure your people and your systems are actually aligned — so you stop paying for both and only getting half."*
 
-</td>
-<td width="45%" valign="top">
-
-### Quick Facts
-
 ```yaml
-Role:      Founder & CEO, Helix Stax
-Focus:     Business Operations Consulting
-Framework: CTGA (Controls, Technology, Growth, Adoption)
-Stack:     K3s · GitOps · Python · Go · TypeScript
-Philosophy: Transparency over abstraction
-            Ownership over convenience
-Location:  United States
+Role:       Founder & CEO, Helix Stax
+Focus:      Business Operations Consulting
+Framework:  CTGA (Controls, Technology, Growth, Adoption)
+Stack:      K3s · GitOps · Python · Go · TypeScript
+Philosophy: Transparency over abstraction · Ownership over convenience
 ```
 
-<p align="center">
+<div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/wakeemwilliams)
 [![Calendly](https://img.shields.io/badge/Book_a_Call-4F9E80?style=for-the-badge&logo=googlecalendar&logoColor=white)](https://calendly.com/wakeemwilliams)
@@ -55,11 +44,7 @@ Location:  United States
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/helixstax)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/helixstax)
 
-</p>
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
@@ -67,38 +52,11 @@ Location:  United States
 
 ## <img src="https://img.shields.io/badge/▐-4F9E80?style=flat-square&logoColor=white" height="16"/> What I'm Building
 
-<table>
-<tr>
-<td width="33%" align="center">
+**🏢 Helix Stax** — Business Operations Consulting. We use the **CTGA Framework** to audit how companies use their tech stack, find the gaps between tools and teams, and close them — permanently. [![Website](https://img.shields.io/badge/helixstax.com-0D1117?style=flat-square&logo=safari&logoColor=4F9E80)](https://helixstax.com)
 
-**🏢 Helix Stax**<br/>
-<sub>Business Operations Consulting</sub>
+**🧬 CTGA Framework** — A proprietary maturity scoring framework. Two paired strands — **C**ontrols + **T**echnology (systems) and **G**rowth + **A**doption (people). Scores 100-900. The mismatch IS the diagnosis.
 
-The firm. We use the **CTGA Framework** to audit how companies use their tech stack, find the gaps between tools and teams, and close them — permanently.
-
-[![Website](https://img.shields.io/badge/helixstax.com-0D1117?style=flat-square&logo=safari&logoColor=4F9E80)](https://helixstax.com)
-
-</td>
-<td width="33%" align="center">
-
-**🧬 CTGA Framework**<br/>
-<sub>Controls, Technology, Growth, Adoption</sub>
-
-A proprietary maturity scoring framework. Two paired strands — **C**ontrols + **T**echnology (the systems strand) and **G**rowth + **A**doption (the people strand). Scores 100-900. The mismatch between strands IS the diagnosis.
-
-</td>
-<td width="33%" align="center">
-
-**🎨 Brand Asset Generator**<br/>
-<sub>Open Source Toolkit</sub>
-
-Automated brand kit pipeline — generates platform-optimized assets (13 platforms, 24+ formats) from source SVGs with EXIF metadata, supersampling, and LANCZOS downscaling.
-
-[![Repo](https://img.shields.io/badge/brandkit-0D1117?style=flat-square&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/brandkit)
-
-</td>
-</tr>
-</table>
+**🎨 Brand Asset Generator** — Automated brand kit pipeline — 13 platforms, 24+ formats, EXIF metadata, 8K supersampling. [![Repo](https://img.shields.io/badge/brandkit-0D1117?style=flat-square&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/brandkit)
 
 ---
 
@@ -180,72 +138,45 @@ graph TD
 ## <img src="https://img.shields.io/badge/▐-C4975A?style=flat-square&logoColor=white" height="16"/> Featured Projects
 
 <div align="center">
-<table>
-<tr>
-<td width="50%" valign="top">
 
-<h3 align="center">🏗️ HelixStax Infrastructure</h3>
+### 🏗️ HelixStax Infrastructure
 
-<p align="center">Self-hosted developer platform on Hetzner bare metal. K3s, Devtron, ArgoCD, Authentik, NetBird VPN — the full stack, zero cloud lock-in.</p>
+Self-hosted developer platform on Hetzner bare metal. K3s, Devtron, ArgoCD, Authentik, NetBird VPN — the full stack, zero cloud lock-in.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/K3s-FFC61C?style=flat-square&logo=k3s&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Devtron-4F46E5?style=flat-square&logo=devdotto&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white"/>
-</p>
+![K3s](https://img.shields.io/badge/K3s-FFC61C?style=flat-square&logo=k3s&logoColor=black) ![Devtron](https://img.shields.io/badge/Devtron-4F46E5?style=flat-square&logo=devdotto&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
 
 [![Repo](https://img.shields.io/badge/View_Repo-0D1117?style=for-the-badge&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/helix-stax-infra)
 
-</td>
-<td width="50%" valign="top">
+---
 
-<h3 align="center">🎨 Brand Asset Kit</h3>
+### 🎨 Brand Asset Kit
 
-<p align="center">Automated brand asset pipeline — source SVGs to 24+ platform-ready assets with embedded metadata, 4096px supersampling, and LANCZOS downscaling.</p>
+Automated brand asset pipeline — source SVGs to 24+ platform-ready assets with embedded metadata, 8K supersampling, and LANCZOS downscaling.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/SVG-FFB13B?style=flat-square&logo=svg&logoColor=black"/>
-  <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-</p>
+![SVG](https://img.shields.io/badge/SVG-FFB13B?style=flat-square&logo=svg&logoColor=black) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-[![Live Kit](https://img.shields.io/badge/View_Brand_Kit-4F9E80?style=for-the-badge&logo=safari&logoColor=white)](https://keemwilliams.github.io/brandkit/platform-assets.html)
-[![Repo](https://img.shields.io/badge/View_Repo-0D1117?style=for-the-badge&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/brandkit)
+[![Live Kit](https://img.shields.io/badge/View_Brand_Kit-4F9E80?style=for-the-badge&logo=safari&logoColor=white)](https://keemwilliams.github.io/brandkit/platform-assets.html) [![Repo](https://img.shields.io/badge/View_Repo-0D1117?style=for-the-badge&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/brandkit)
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+---
 
-<h3 align="center">🤖 MCP Server — CI/CD</h3>
+### 🤖 MCP Server — CI/CD
 
-<p align="center">Open-source Model Context Protocol server that connects AI agents to CI/CD pipelines. Bridge the gap between LLMs and your deployment infrastructure.</p>
+Open-source Model Context Protocol server that connects AI agents to CI/CD pipelines.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-</p>
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 [![Repo](https://img.shields.io/badge/View_Repo-0D1117?style=for-the-badge&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/mcp-server-cicd)
 
-</td>
-<td width="50%" valign="top">
+---
 
-<h3 align="center">📚 Technical Documentation</h3>
+### 📚 Technical Documentation
 
-<p align="center">Public engineering documentation — runbooks, architecture decisions, infrastructure patterns. Built in the open because transparency scales better than gatekeeping.</p>
+Public engineering docs — runbooks, architecture decisions, infrastructure patterns. Built in the open.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/MkDocs-000000?style=flat-square&logo=readthedocs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white"/>
-</p>
+![MkDocs](https://img.shields.io/badge/MkDocs-000000?style=flat-square&logo=readthedocs&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
 [![Docs](https://img.shields.io/badge/View_Docs-C4975A?style=for-the-badge&logo=readthedocs&logoColor=white)](https://docs.wakeemwilliams.com)
 
-</td>
-</tr>
-</table>
 </div>
 
 ---
