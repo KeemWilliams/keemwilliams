@@ -1,0 +1,118 @@
+name: Stale Project Check
+
+on:
+  schedule:
+    # Runs every Monday at 08:00 UTC
+    - cron: '0 8 * * 1'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+env:
+  STALE_THRESHOLD_DAYS: 30
+
+jobs:
+  check-repos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check linked repos for staleness
+        id: stale-check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          #!/bin/bash
+          set -euo pipefail
+
+          # List of repos to monitor (add repos as needed)
+          REPOS=(
+            "KeemWilliams/helix-stax-infra"
+            "KeemWilliams/brandkit"
+            "KeemWilliams/mcp-server-cicd"
+          )
+
+          STALE_REPOS=()
+          ACTIVE_REPOS=()
+          NOW=$(date +%s)
+          THRESHOLD=$((STALE_THRESHOLD_DAYS * 86400))
+
+          echo "## Stale Project Report" > stale-report.md
+          echo "" >> stale-report.md
+          echo "Generated: $(date -u '+%Y-%m-%d %H:%M UTC')" >> stale-report.md
+          echo "Threshold: ${STALE_THRESHOLD_DAYS} days" >> stale-report.md
+          echo "" >> stale-report.md
+          echo "| Repository | Last Commit | Status |" >> stale-report.md
+          echo "|------------|-------------|--------|" >> stale-report.md
+
+          for REPO in "${REPOS[@]}"; do
+            # Get the date of the most recent commit on default branch
+            LAST_COMMIT_DATE=$(gh api "repos/${REPO}/commits?per_page=1" \
+              --jq '.[0].commit.committer.date' 2>/dev/null || echo "")
+
+            if [ -z "$LAST_COMMIT_DATE" ]; then
+              echo "| ${REPO} | N/A | :grey_question: Not found |" >> stale-report.md
+              continue
+            fi
+
+            LAST_COMMIT_TS=$(date -d "$LAST_COMMIT_DATE" +%s 2>/dev/null || date -j -f "%Y-%m-%dT%H:%M:%SZ" "$LAST_COMMIT_DATE" +%s 2>/dev/null || echo "0")
+            AGE=$((NOW - LAST_COMMIT_TS))
+            DAYS_AGO=$((AGE / 86400))
+            FRIENDLY_DATE=$(date -d "$LAST_COMMIT_DATE" '+%Y-%m-%d' 2>/dev/null || echo "$LAST_COMMIT_DATE")
+
+            if [ "$AGE" -gt "$THRESHOLD" ]; then
+              STALE_REPOS+=("$REPO")
+              echo "| ${REPO} | ${FRIENDLY_DATE} (${DAYS_AGO}d ago) | :red_circle: Stale |" >> stale-report.md
+            else
+              ACTIVE_REPOS+=("$REPO")
+              echo "| ${REPO} | ${FRIENDLY_DATE} (${DAYS_AGO}d ago) | :green_circle: Active |" >> stale-report.md
+            fi
+          done
+
+          echo "" >> stale-report.md
+          echo "---" >> stale-report.md
+          echo "Active: ${#ACTIVE_REPOS[@]} | Stale: ${#STALE_REPOS[@]}" >> stale-report.md
+
+          # Output for downstream steps
+          echo "stale_count=${#STALE_REPOS[@]}" >> $GITHUB_OUTPUT
+          echo "active_count=${#ACTIVE_REPOS[@]}" >> $GITHUB_OUTPUT
+
+          if [ ${#STALE_REPOS[@]} -gt 0 ]; then
+            echo "stale_list=${STALE_REPOS[*]}" >> $GITHUB_OUTPUT
+          fi
+
+          cat stale-report.md
+
+      - name: Update README project status badges
+        if: steps.stale-check.outputs.stale_count != '0'
+        run: |
+          #!/bin/bash
+          set -euo pipefail
+
+          STALE_LIST="${{ steps.stale-check.outputs.stale_list }}"
+          UPDATED=false
+
+          for REPO in $STALE_LIST; do
+            REPO_NAME=$(echo "$REPO" | cut -d'/' -f2)
+            echo "::warning::Repository ${REPO} has not been updated in ${STALE_THRESHOLD_DAYS}+ days"
+            # Future: could auto-update status emojis in README
+            # For now, just warn so the user can manually review
+          done
+
+      - name: Commit stale report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          mkdir -p .github/reports
+          cp stale-report.md .github/reports/stale-report.md
+
+          git add .github/reports/stale-report.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: weekly stale project check [skip ci]"
+            git push
+          fi
