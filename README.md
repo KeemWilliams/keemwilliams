@@ -54,20 +54,20 @@ Philosophy: Transparency over abstraction · Ownership over convenience
 
 ## <img src="https://img.shields.io/badge/▐-4F9E80?style=flat-square&logoColor=white" height="16"/> What I'm Building
 
-**🏢 Helix Stax** — Business operations consulting. We run CTGA Framework assessments to find the gap between what companies pay for and what their teams actually touch. Then we close that gap. Permanently. [![Website](https://img.shields.io/badge/helixstax.com-0D1117?style=flat-square&logo=safari&logoColor=4F9E80)](https://helixstax.com)
+**Helix Stax** — Business operations consulting. We run CTGA Framework assessments to find the gap between what companies pay for and what their teams actually touch. Then we close that gap. Permanently. [![Website](https://img.shields.io/badge/helixstax.com-0D1117?style=flat-square&logo=safari&logoColor=4F9E80)](https://helixstax.com)
 
-**🧬 CTGA Framework** — Our proprietary systems adoption scoring model. Two paired strands: **C**ontrols + **T**echnology measure the systems side, **G**rowth + **A**doption measure the people side. Scores run 100-900. The gap between strands is the diagnosis.
+**CTGA Framework** — Our proprietary systems adoption scoring model. Two paired strands: **C**ontrols + **T**echnology measure the systems side, **G**rowth + **A**doption measure the people side. Scores run 100-900. The gap between strands is the diagnosis.
 
-**🎨 Brand Asset Generator** — Automated brand kit pipeline. One upload, 13 platforms, 24+ export formats, EXIF metadata baked in, 8K supersampling. I got tired of manually resizing logos. [![Repo](https://img.shields.io/badge/brandkit-0D1117?style=flat-square&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/brandkit)
+**Brand Asset Generator** — Automated brand kit pipeline. One upload, 13 platforms, 24+ export formats, EXIF metadata baked in, 8K supersampling. I got tired of manually resizing logos. [![Repo](https://img.shields.io/badge/brandkit-0D1117?style=flat-square&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/brandkit)
 
-**🌐 helixstax.com** — The website. Astro 5, Tailwind v4, Shadcn UI, GSAP animations, self-hosted analytics. Dark-mode-first, performance-obsessed, built to convert. [![Repo](https://img.shields.io/badge/helixstax.com-0D1117?style=flat-square&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/helixstax.com)
+**helixstax.com** — The website. Astro 5, Tailwind v4, Shadcn UI, GSAP animations, self-hosted analytics. Dark-mode-first, performance-obsessed, built to convert. [![Repo](https://img.shields.io/badge/helixstax.com-0D1117?style=flat-square&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/helixstax.com)
 
 ---
 
 <!-- ═══════════════════ CURRENTLY WORKING ON ═══════════════════ -->
 
 <details>
-<summary><strong>🔭 Currently Working On</strong></summary>
+<summary><strong>Currently Working On</strong></summary>
 <br/>
 
 | Project | Status | Description |
@@ -78,7 +78,7 @@ Philosophy: Transparency over abstraction · Ownership over convenience
 | **Automated Phone System** | 🟡 Building | Missed calls get answered in 3 seconds, appointments get booked without a human |
 | **Client Onboarding Engine** | 🟢 Active | Intake form to CTGA assessment to finished report — no manual steps in between |
 | **CMMC Adoption Compliance** | 🟡 Building | CTGA framework applied to defense contractor cybersecurity — ensuring teams follow the controls, not just install them |
-| **Infrastructure Platform** | 🟢 Active | K3s + Devtron on Hetzner bare metal. Self-hosted. No cloud vendor lock-in. |
+| **Infrastructure Platform** | 🟢 Active | 4-node K3s cluster on Hetzner bare metal. Self-hosted. No cloud vendor lock-in. |
 
 </details>
 
@@ -92,7 +92,7 @@ What I build with. No fluff — these are the tools I actually use.
 
 **Infrastructure & Cloud**
 
-![Kubernetes](https://img.shields.io/badge/K3s-FFC61C?style=flat-square&logo=k3s&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=FF9900) ![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Hetzner](https://img.shields.io/badge/Hetzner-D50C2D?style=flat-square&logo=hetzner&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/K3s-FFC61C?style=flat-square&logo=k3s&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![OpenTofu](https://img.shields.io/badge/OpenTofu-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) ![Hetzner](https://img.shields.io/badge/Hetzner-D50C2D?style=flat-square&logo=hetzner&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
 **DevOps & GitOps**
 
@@ -104,7 +104,7 @@ What I build with. No fluff — these are the tools I actually use.
 
 **Data & Observability**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![PostHog](https://img.shields.io/badge/PostHog-F54E00?style=flat-square&logo=posthog&logoColor=white) ![Matomo](https://img.shields.io/badge/Matomo-3152A0?style=flat-square&logo=matomo&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Valkey](https://img.shields.io/badge/Valkey-DC382D?style=flat-square&logo=redis&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white) ![PostHog](https://img.shields.io/badge/PostHog-F54E00?style=flat-square&logo=posthog&logoColor=white) ![Matomo](https://img.shields.io/badge/Matomo-3152A0?style=flat-square&logo=matomo&logoColor=white)
 
 **AI & Automation**
 
@@ -112,14 +112,18 @@ What I build with. No fluff — these are the tools I actually use.
 
 **Security & Identity**
 
-![Authentik](https://img.shields.io/badge/Authentik-FD4B2D?style=flat-square&logo=authelia&logoColor=white) ![NetBird](https://img.shields.io/badge/NetBird-4F9E80?style=flat-square&logo=wireguard&logoColor=white) ![Vault](https://img.shields.io/badge/OpenBao-FFEC6E?style=flat-square&logo=vault&logoColor=black)
+![Zitadel](https://img.shields.io/badge/Zitadel-FD4B2D?style=flat-square&logo=authelia&logoColor=white) ![Cloudflare Zero Trust](https://img.shields.io/badge/Zero_Trust-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![OpenBao](https://img.shields.io/badge/OpenBao-FFEC6E?style=flat-square&logo=vault&logoColor=black)
+
+**Compliance Frameworks**
+
+![HIPAA](https://img.shields.io/badge/HIPAA-4F9E80?style=flat-square&logoColor=white) ![SOC2](https://img.shields.io/badge/SOC_2-4F9E80?style=flat-square&logoColor=white) ![NIST](https://img.shields.io/badge/NIST_CSF-4F9E80?style=flat-square&logoColor=white) ![ISO27001](https://img.shields.io/badge/ISO_27001-4F9E80?style=flat-square&logoColor=white) ![CIS](https://img.shields.io/badge/CIS_Controls-4F9E80?style=flat-square&logoColor=white)
 
 ---
 
 <!-- ═══════════════════ ARCHITECTURE DIAGRAM ═══════════════════ -->
 
 <details>
-<summary><strong>🏗️ Infrastructure Architecture — HelixStax Platform</strong></summary>
+<summary><strong>Infrastructure Architecture — Helix Stax Platform</strong></summary>
 <br/>
 
 ```mermaid
@@ -129,20 +133,20 @@ graph TD
     CF -->|Origin CA| TR[Traefik v3 Ingress]
 
     subgraph Identity
-        Auth[Authentik SSO]
-        NB[NetBird VPN]
+        Auth[Zitadel OIDC/SAML]
+        ZT[Zero Trust]
     end
 
     subgraph Platform [K3s Cluster — Hetzner Bare Metal]
         TR --> Apps[Client Workloads]
-        TR --> Mon[Grafana + Prometheus]
-        TR --> AI[Ollama + n8n]
-        Apps --> DB[(PostgreSQL + pgvector)]
+        TR --> Mon[Grafana + Prometheus + Loki]
+        TR --> AI[Ollama + Open WebUI]
+        Apps --> DB[(CloudNativePG + pgvector)]
         AI --> DB
     end
 
     Auth -.->|OIDC| TR
-    NB -.->|Zero-Trust| TR
+    ZT -.->|Cloudflare| TR
 ```
 
 </details>
@@ -176,19 +180,29 @@ graph TD
 
 <div align="center">
 
-### 🏗️ HelixStax Infrastructure
+### Helix Platform
 
-The whole Helix Stax platform runs on this. K3s on Hetzner bare metal, Devtron for CI/CD, ArgoCD for GitOps, Authentik for identity, NetBird for zero-trust networking. No AWS bill. No Azure dependency. We own the stack.
+The Helix Stax infrastructure architecture — documented publicly. K3s on Hetzner bare metal, Devtron for CI/CD, ArgoCD for GitOps, Zitadel for OIDC/SAML identity, Cloudflare Zero Trust for edge. No AWS bill. No Azure dependency. We own the stack.
 
-![K3s](https://img.shields.io/badge/K3s-FFC61C?style=flat-square&logo=k3s&logoColor=black) ![Devtron](https://img.shields.io/badge/Devtron-4F46E5?style=flat-square&logo=devdotto&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![K3s](https://img.shields.io/badge/K3s-FFC61C?style=flat-square&logo=k3s&logoColor=black) ![Devtron](https://img.shields.io/badge/Devtron-4F46E5?style=flat-square&logo=devdotto&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white) ![Zitadel](https://img.shields.io/badge/Zitadel-FD4B2D?style=flat-square&logo=authelia&logoColor=white)
 
-[![Repo](https://img.shields.io/badge/View_Repo-0D1117?style=for-the-badge&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/helix-stax-infra)
+[![Repo](https://img.shields.io/badge/View_Repo-0D1117?style=for-the-badge&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/helix-platform)
 
 ---
 
-### 🎨 Brand Asset Kit
+### Devtron MCP Server
 
-One source SVG goes in. 24+ platform-ready assets come out — with EXIF metadata, 8K supersampling, and LANCZOS downscaling. I built this because resizing the same logo for LinkedIn, Instagram, Twitter, and ten other places was eating hours I didn't have.
+Open-source Model Context Protocol server that gives AI agents direct access to Devtron CI/CD pipelines. Written in Go. If you're building agent tooling and need Kubernetes pipeline access, this is the bridge.
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logoColor=white) ![Devtron](https://img.shields.io/badge/Devtron-4F46E5?style=flat-square&logo=devdotto&logoColor=white)
+
+[![Repo](https://img.shields.io/badge/View_Repo-0D1117?style=for-the-badge&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/devtron-mcp-server)
+
+---
+
+### Brand Asset Kit
+
+One source SVG goes in. 24+ platform-ready assets come out — with EXIF metadata, 8K supersampling, and LANCZOS downscaling. I built this because resizing the same logo for LinkedIn, Instagram, X, and ten other platforms was eating hours I didn't have.
 
 ![SVG](https://img.shields.io/badge/SVG-FFB13B?style=flat-square&logo=svg&logoColor=black) ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
@@ -196,23 +210,13 @@ One source SVG goes in. 24+ platform-ready assets come out — with EXIF metadat
 
 ---
 
-### 🤖 MCP Server — CI/CD
+### Zoho Mail to Google Workspace Migration
 
-Open-source Model Context Protocol server that lets AI agents talk to CI/CD pipelines. Written in Go. If you're building agent tooling and need pipeline access, this is the bridge.
+End-to-end migration playbook for moving from Zoho Mail to Google Workspace. Covers identity/SSO, bulk user provisioning via GAM, license automation, pilot runbook, and reconciliation templates. Parameterized scripts, no production secrets or customer data included.
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Google Workspace](https://img.shields.io/badge/Google_Workspace-4285F4?style=flat-square&logo=google&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-[![Repo](https://img.shields.io/badge/View_Repo-0D1117?style=for-the-badge&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/mcp-server-cicd)
-
----
-
-### 📚 Technical Documentation
-
-Public engineering docs. Runbooks, architecture decisions, infrastructure patterns. I build in the open because I've wasted too many hours on undocumented systems to inflict that on anyone else.
-
-![MkDocs](https://img.shields.io/badge/MkDocs-000000?style=flat-square&logo=readthedocs&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
-
-[![Docs](https://img.shields.io/badge/View_Docs-C4975A?style=for-the-badge&logo=readthedocs&logoColor=white)](https://docs.wakeemwilliams.com)
+[![Repo](https://img.shields.io/badge/View_Repo-0D1117?style=for-the-badge&logo=github&logoColor=4F9E80)](https://github.com/KeemWilliams/zoho-mail-to-google-workspace-migration)
 
 </div>
 
@@ -221,7 +225,7 @@ Public engineering docs. Runbooks, architecture decisions, infrastructure patter
 <!-- ═══════════════════ AUTOMATION SHOWCASE ═══════════════════ -->
 
 <details>
-<summary><strong>⚡ Automation in Action — What We Build for Clients</strong></summary>
+<summary><strong>Automation in Action — What We Build for Clients</strong></summary>
 <br/>
 
 ### Lead Pipeline
@@ -268,7 +272,7 @@ Phone rings. Nobody picks up. Three seconds later, the system does.
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#4F9E80', 'primaryTextColor': '#F0F4FF', 'lineColor': '#8896B3', 'background': '#0D1117'}}}%%
 flowchart TD
-    A[📞 Missed Call] --> B[AI Answers in 3s]
+    A[Missed Call] --> B[AI Answers in 3s]
     B --> C[Books Appointment]
     C --> D[Confirms via Text]
     D --> E[Syncs to Calendar]
@@ -303,7 +307,7 @@ flowchart TD
 <!-- ═══════════════════ COLLABORATION ═══════════════════ -->
 
 <details>
-<summary><strong>🤝 Open to Collaboration</strong></summary>
+<summary><strong>Open to Collaboration</strong></summary>
 <br/>
 
 I'm looking for people building in these areas:
@@ -336,8 +340,8 @@ If you're working on something adjacent, or if your company is paying for tools 
 <a href="https://keemwilliams.github.io/brandkit/platform-assets.html">
   <img src="https://img.shields.io/badge/Brand_Kit-View_Assets-C4975A?style=flat-square&logo=figma&logoColor=white" />
 </a>
-<a href="https://docs.wakeemwilliams.com">
-  <img src="https://img.shields.io/badge/Docs-docs.wakeemwilliams.com-8896B3?style=flat-square&logo=readthedocs&logoColor=white" />
+<a href="mailto:contact@wakeemwilliams.com">
+  <img src="https://img.shields.io/badge/Email-contact%40wakeemwilliams.com-8896B3?style=flat-square&logo=gmail&logoColor=white" />
 </a>
 
 <br/><br/>
