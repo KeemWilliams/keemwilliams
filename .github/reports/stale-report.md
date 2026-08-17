@@ -1,13 +1,13 @@
 ## Stale Project Report
 
-Generated: 2026-08-10 09:39 UTC
+Generated: 2026-08-17 08:51 UTC
 Threshold: 30 days
 
 | Repository | Last Commit | Status |
 |------------|-------------|--------|
-| KeemWilliams/helix-stax-infra | {"message":"Not Found","documentation_url":"https://docs.github.com/rest/commits/commits#list-commits","status":"404"} (20675d ago) | :red_circle: Stale |
-| KeemWilliams/brandkit | 2026-03-15 (147d ago) | :red_circle: Stale |
-| KeemWilliams/mcp-server-cicd | {"message":"Not Found","documentation_url":"https://docs.github.com/rest/commits/commits#list-commits","status":"404"} (20675d ago) | :red_circle: Stale |
+| KeemWilliams/helix-stax-infra | {"message":"Not Found","documentation_url":"https://docs.github.com/rest/commits/commits#list-commits","status":"404"} (20682d ago) | :red_circle: Stale |
+| KeemWilliams/brandkit | 2026-03-15 (154d ago) | :red_circle: Stale |
+| KeemWilliams/mcp-server-cicd | {"message":"Not Found","documentation_url":"https://docs.github.com/rest/commits/commits#list-commits","status":"404"} (20682d ago) | :red_circle: Stale |
 
 ---
 Active: 0 | Stale: 3
